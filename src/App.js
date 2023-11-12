@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from './spotify.svg';
+import $ from "jquery";
 import {authURL, preservedState} from "./authorize";
 import {checkState, access_token} from "./processToken";
 import './App.css';
@@ -33,7 +34,19 @@ class App extends Component {
     clearInterval(this.interval);
   }
   getTopArtist(token){
-
+    $.ajax({
+        url:"https://api.spotify.com/v1/me/top/artists",
+        type:"GET",
+        beforeSend: xhr => {
+            xhr.setRequestHeader("Authorization", "Bearer " + token);
+        },
+        success: data => {
+            this.setState({
+                top_artist: data.items[0].name,
+                artist_image:data.items[0].images[0].url
+            });
+        }
+    });
   }
   render (){
     return (
