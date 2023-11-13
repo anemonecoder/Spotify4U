@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Spotify4U: Where you can find fun facts about your Spotify Account
 
 ## Available Scripts
 
