@@ -1,6 +1,8 @@
 # Spotify4U: Where you can find fun facts about your Spotify Account
 
-## Available Scripts
+## How to navigate
+
+Remember to log in to your Spotify account to give permission
 
 In the project directory, you can run:
 
