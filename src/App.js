@@ -54,11 +54,13 @@ class App extends Component {
             <header className="App-header">
             {!this.state.token && (
                 <div className="Intro">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <a className = "log-in-spotify"
-                        href = {`${authURL}`}>
-                            Sign in to Spotify
-                    </a>
+                   <img src={logo} className="App-logo" alt="logo" />
+                    <p>
+                        <a className = "log-in-spotify"
+                            href = {`${authURL}`}>
+                                Sign in to Spotify
+                        </a>
+                    </p>
                     <p>
                         Let's get to know your top artist!
                     </p>
