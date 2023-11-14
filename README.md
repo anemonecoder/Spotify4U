@@ -3,7 +3,7 @@
 ## How to navigate
 
 Remember to log in to your Spotify account to give permission, and then you'll see your top artist!
-<img width="1059" alt="Screen Shot 2023-11-13 at 14 56 52" src="https://github.com/anemonecoder/Spotify4U/assets/150539321/51bc130d-28b3-4077-8874-5f165ac19960">
+![Uploading Screen Shot 2023-11-13 at 14.56.52.png…]()
 
 To try running the project in your computer, you can clone it and run:
 
